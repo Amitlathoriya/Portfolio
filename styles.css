@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 /**header**/
 header{
@@ -66,7 +65,8 @@ body{
 .content1{
     margin-top: 20px;
     background-color: rgba(9, 9, 15, 0.8);
-    height: 600px;
+    padding: 10px;
+    padding-top: 20px;
     color: #209855;
     font-family: "Press Start 2P", serif;
 
