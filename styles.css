@@ -112,7 +112,7 @@ li{
 /* contant boxs */
 .content_box{
     margin-top: 10px;
-    height: 500px;
+    height: 500vh;
     
     display: flex;
     justify-content: space-evenly;
