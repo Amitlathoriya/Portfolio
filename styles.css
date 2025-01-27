@@ -111,7 +111,7 @@ li{
 /* contant boxs */
 .content_box{
     margin-top: 10px;
-    height: 500vh;
+    height: 500px;
     
     display: flex;
     justify-content: space-evenly;
@@ -155,6 +155,6 @@ li{
     display: flex;
     align-content: center;
     background-color: #051D0A;
-    
+
   }
   
