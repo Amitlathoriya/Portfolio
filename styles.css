@@ -30,7 +30,7 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-nav button{
+button{
     width: 100px;
     height: 40px;
     border-radius: 80px;
@@ -41,7 +41,10 @@ nav button{
     justify-content: center;
     align-items: center;
 }
-nav button:hover{
+i {
+    color: azure;
+}
+button:hover{
     display: inline;
     transform: scale(1.1);
     border: solid 2px rgb(1, 17, 26);
@@ -135,6 +138,12 @@ li{
     height: 320px;
     width: 250px;
 }
+.image_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .footer_div{
     height: 100px;
     background-color: #051D0A;
@@ -152,9 +161,24 @@ li{
 
   .intern {
     height: max-content;
-    display: flex;
+    width: 100%;
     align-content: center;
-    background-color: #051D0A;
-
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(9, 9, 15, 0.8);
+    margin: 20px;
+    padding: 5px;
   }
-  
+.intern input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    color: #051D0A;
+    font-family: "Press Start 2P", serif;
+}
+.intern button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    color: aliceblue;
+}
